@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------------Navbar Style-----------------------*/
+.navbar{
+    background-color:#95dfdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.navbar .logo h1{
+    color: #02656e;
+
+}
+
+.navbar nav {
+    display: flex;
+    gap: 50px;
+}
+.navbar nav a {
+    text-decoration: none;
+    color:#0897a4 ;
+}
+
+.navbar nav a:hover{
+    color: white
+   
+}
+.navbar button{
+    background-color: #0c9d9b;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.navbar button:hover{
+    background-color:white;
+    color: #0897a4;
+}
+
+
+/* ------------------Content Style-----------------------*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   align-items: center;
+   text-align: center;
+  
+}
+.content-text{
+    height: 150px;
+    width: 60%;
+}
+.content-text h1{
+    font-size: 55px;
+    font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-bottom: 10px;
+}
+
+
+.content-img img{
+    height: 300px;
+    border-radius: 20px;
+   margin-bottom: 20px;
+}
+
+
+/* ------------------Form Style-----------------------*/
+
+.Form{
+    text-align: center;
+}
+.Form input{
+    width: 20%;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+
+.Form button {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    font-weight: bold;
+    line-height: 37px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
