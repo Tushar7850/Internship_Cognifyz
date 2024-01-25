@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: azure;
+}
+
+/* ------------------Color Changing  Style-----------------------*/
+.color-btn{
+    text-align: center;
+    padding: 50px;
+}
+
+.color-btn h2{
+   font-weight: bold;
+   color: rgb(15, 121, 242);
+   font-size:30px;
+   
+}
+
+.color-btn button {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 30px;
+   border: none;
+   margin-top: 15px;
+   font-size: medium;
+   background-color: black;
+   color: white;
+}
+
+/* ------------------Calculator Style-----------------------*/
+
+
+.calculator{
+    display: flex;
+ justify-content: center;
+ margin-top: 70px;
+
+}
+.calculator h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+
+
+}
+
+
+.calcalculator-input input{
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.Submit-btn{
+    display: flex;
+justify-content: center;
+padding: 10px;
+}
+.Submit-btn button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(51, 126, 225);
+    color: white;
+    cursor: pointer;
+}
+
+
+.calculator p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+#Totalval{
+    color: rgb(73, 3, 73);
+    background-color: rgb(241, 119, 255);
+    border-radius: 5px ;
+    padding: 5px 6px;
+}
